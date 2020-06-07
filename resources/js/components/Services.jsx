@@ -8,8 +8,8 @@ const Services = ()=>{
     useEffect(()=>{
         window.addEventListener('scroll',()=>{
             if(window.scrollY > 795){
-                setAnimIcon('col-md-4 mb-5 animated fadeInLeft')
-                setAnimIcon2('col-md-4 mb-5 animated fadeInRight')
+                setAnimIcon('col-md-4 mb-5 animate__animated animate__fadeInLeft')
+                setAnimIcon2('col-md-4 mb-5 animate__animated animate__fadeInRight')
             }else{
                 setAnimIcon('col-md-4 mb-5 invisible')
                 setAnimIcon2('col-md-4 mb-5 invisible')

@@ -1,5 +1,6 @@
 import React,{useState,useEffect} from 'react';
-import image from '../../../public/img/guy.jpg'
+import image from '../../../public/img/guy.jpg';
+
 
 
 function About() {
@@ -11,8 +12,8 @@ function About() {
     useEffect(()=>{
         window.addEventListener('scroll',()=>{
             if(window.scrollY > 400){
-                setAnimIcon('col-lg-5 col-md-6 pb-5 animated fadeInLeft')
-                setAnimIcon2('col-lg-7 col-md-6 animated fadeInRight')
+                setAnimIcon('col-lg-5 col-md-6 pb-5 animate__animated animate__fadeInLeft')
+                setAnimIcon2('col-lg-7 col-md-6 animate__animated animate__fadeInRight')
             }else{
                 setAnimIcon('col-lg-5 col-md-6 pb-4 invisible')
                 setAnimIcon2('col-lg-7 col-md-6 invisible')
@@ -50,7 +51,7 @@ return (
                                 <a href="#"><i className="fab fa-pinterest"></i></a>
                             </div> */}
                             <span className="about-button">
-                                <a className="main-btn" href="/home/ismael/Bureau/Coding-School/React/Portfolio/src/cv.pdf" target="_blank" download>Download CV</a>
+                                <a className="main-btn" href="/c/Users/Ismael/Downloads/AZOUD-ISMAËL-CV-FR.pdf" target="_blank" download >Download CV</a>
                             </span>
                         </div>
 

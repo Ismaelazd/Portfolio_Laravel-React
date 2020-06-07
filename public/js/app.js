@@ -94,7 +94,7 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../css-loader??ref--6-1!../postcss-loader/src??ref--6-2!./animate.min.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/animate.css/animate.min.css?e673");
+var content = __webpack_require__(/*! !../css-loader??ref--6-1!../postcss-loader/src??ref--6-2!./animate.min.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/animate.css/animate.min.css");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -6359,7 +6359,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/animate.css/animate.min.css?e673":
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/animate.css/animate.min.css":
 /*!**********************************************************************************************************************************!*\
   !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./node_modules/animate.css/animate.min.css ***!
   \**********************************************************************************************************************************/
@@ -72130,8 +72130,8 @@ function About() {
   Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
     window.addEventListener('scroll', function () {
       if (window.scrollY > 400) {
-        setAnimIcon('col-lg-5 col-md-6 pb-5 animated fadeInLeft');
-        setAnimIcon2('col-lg-7 col-md-6 animated fadeInRight');
+        setAnimIcon('col-lg-5 col-md-6 pb-5 animate__animated animate__fadeInLeft');
+        setAnimIcon2('col-lg-7 col-md-6 animate__animated animate__fadeInRight');
       } else {
         setAnimIcon('col-lg-5 col-md-6 pb-4 invisible');
         setAnimIcon2('col-lg-7 col-md-6 invisible');
@@ -72162,7 +72162,7 @@ function About() {
     className: "about-button"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     className: "main-btn",
-    href: "/home/ismael/Bureau/Coding-School/React/Portfolio/src/cv.pdf",
+    href: "/c/Users/Ismael/Downloads/AZOUD-ISMA\xCBL-CV-FR.pdf",
     target: "_blank",
     download: true
   }, "Download CV"))), "-"))));
@@ -72372,7 +72372,7 @@ var Formulaire = function Formulaire() {
   Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
     window.addEventListener('scroll', function () {
       if (window.scrollY > 3350) {
-        setAnimIcon('row r2 animated fadeInUp');
+        setAnimIcon('row r2 animate__animated animate__fadeInUp');
       } else {
         setAnimIcon('invisible row r2');
       }
@@ -72523,9 +72523,9 @@ var Media = function Media() {
   Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
     window.addEventListener('scroll', function () {
       if (window.scrollY > 3350) {
-        setAnimIcon('animated fadeInUp');
+        setAnimIcon('animate__animated animate__fadeInUp');
       } else {
-        setAnimIcon('animated fadeOutDown');
+        setAnimIcon('animate__animated animate__fadeOutDown');
       }
     });
   });
@@ -72806,8 +72806,8 @@ var Services = function Services() {
   Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
     window.addEventListener('scroll', function () {
       if (window.scrollY > 795) {
-        setAnimIcon('col-md-4 mb-5 animated fadeInLeft');
-        setAnimIcon2('col-md-4 mb-5 animated fadeInRight');
+        setAnimIcon('col-md-4 mb-5 animate__animated animate__fadeInLeft');
+        setAnimIcon2('col-md-4 mb-5 animate__animated animate__fadeInRight');
       } else {
         setAnimIcon('col-md-4 mb-5 invisible');
         setAnimIcon2('col-md-4 mb-5 invisible');

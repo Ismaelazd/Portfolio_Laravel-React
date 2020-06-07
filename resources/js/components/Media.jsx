@@ -10,9 +10,9 @@ const Media = ()=>{
     useEffect(()=>{
         window.addEventListener('scroll',()=>{
             if(window.scrollY > 3350){
-                setAnimIcon('animated fadeInUp')
+                setAnimIcon('animate__animated animate__fadeInUp')
             }else{
-                setAnimIcon('animated fadeOutDown')
+                setAnimIcon('animate__animated animate__fadeOutDown')
             }
            
         })
